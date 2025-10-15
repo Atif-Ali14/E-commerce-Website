@@ -15,13 +15,13 @@ export default function Footer() {
         {/* Left: Text */}
         <p className="text-sm flex items-center gap-1 mb-3 md:mb-0">
           Made with <FaHeart className="text-red-500 inline" /> by{" "}
-          <span className="font-semibold text-gray-900">Tayyab Khan</span>
+          <span className="font-semibold text-gray-900">Atif Ali</span>
         </p>
 
         {/* Right: Social Icons */}
         <div className="flex gap-5 text-xl">
           <a
-            href="https://github.com/easy2-code"
+            href="https://github.com/Atif-Ali14"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-black transition"
@@ -29,7 +29,7 @@ export default function Footer() {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/tayyab-khan-48162b23b/"
+            href="https://www.linkedin.com/in/atif-ali0/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#0A66C2] transition"
@@ -37,7 +37,7 @@ export default function Footer() {
             <FaLinkedin />
           </a>
           <a
-            href="https://x.com/easy2_code"
+            href="https://x.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#1DA1F2] transition"
@@ -45,7 +45,7 @@ export default function Footer() {
             <FaTwitter />
           </a>
           <a
-            href="https://www.youtube.com/@easy2code"
+            href="https://www.youtube.com"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#FF0000] transition"
@@ -53,7 +53,7 @@ export default function Footer() {
             <FaYoutube />
           </a>
           <a
-            href="https://www.instagram.com/tayyab.kh9/"
+            href="https://www.instagram.com/atif-ali/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-500 transition"
