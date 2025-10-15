@@ -1,63 +1,16 @@
-React Product Showcase
+# React + Vite
 
-This project is built using React, with Material UI (MUI) and Tailwind CSS integrated for modern and responsive design. It features a structured layout that includes a header, product cards, and an image modal for enhanced user interaction.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Overview
+Currently, two official plugins are available:
 
-The project demonstrates how to combine MUI components with Tailwind utility classes to create a cohesive user interface. It includes:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-A responsive Header built using MUI AppBar and Toolbar
+## React Compiler
 
-Product Cards displayed in a grid layout styled with Tailwind
+The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
 
-An Image Modal that enlarges product images when clicked
+## Expanding the ESLint configuration
 
-Technologies Used
-Technology	            Description
-React	            Frontend library for building user interfaces
-Vite	            Development environment for fast builds
-Material UI (MUI)	Component library for React
-Tailwind CSS	    Utility-first CSS framework
-React Hooks	        Used for managing state and modal functionality
-Installation
-
-Follow the steps below to set up and run the project locally:
-
-# Clone the repository
-git clone https://github.com/Atif-Ali14/E-commerce-Website
-
-# Navigate into the project directory
-cd E-commerce-Website
-
-# Install dependencies
-npm install
-
-# Run the development server
-npm run dev
-
-
-Once the server is running, open your browser and visit:
-http://localhost:5173
-
-Features
-
-Integration of Material UI with Tailwind CSS
-
-Responsive header with navigation
-
-Product cards using MUI components within a Tailwind grid
-
-Image modal functionality for interactive product previews
-
-Scripts
-Command	            Description
-npm run dev	        Start the local development server
-npm run build	    Build the project for production
-npm run preview	    Preview the production build locally
-Learning Outcomes
-
-Understanding how to integrate MUI and Tailwind CSS in a single React project
-
-Implementing state management for modal handling
-
-Building reusable and responsive UI components
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
